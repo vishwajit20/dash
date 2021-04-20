@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+
+
+.link {
+  fill: none;
+  stroke: blue;
+  stroke-width: 2px;
+}
+
+.tool-tip{
+  font-size: medium;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  background-color: rgba(0,0,0,.7);  
+  border: 1px solid navy;
+  //padding : 1px 1px 1px 1px;
+  //border-right: 1px solid navy;
+  //  border-bottom: 1px solid navy;
+  //  border-left: 1px solid navy; 
+  //border-radius: 2px;
+  border-width: medium;
+    color: indigo;
+    background: white;
+}
+
+
